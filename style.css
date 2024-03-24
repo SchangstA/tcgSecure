@@ -27,6 +27,7 @@ ul[role='list'],
 ol[role='list'],
 li {
   list-style: none;
+  padding: none;
 }
 
 /* Set core root defaults */
@@ -111,19 +112,86 @@ input {
   height: 20rem;
 }
 
+.arrows {
+  border: 1px solid black;
+  border-radius: 100%;
+  height: 30%;
+  min-width: 48px;
+}
+
+.arrow-container {
+  padding-top: 10rem;
+}
+
+.img-container-catalog {
+  height: 384px;
+}
+
+.slide,
+.slide2 {
+  inset: 0;
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  padding: 16rem;
+  gap: 1rem;
+}
+
+.slide[data-active],
+.slide2[data-active] {
+  visibility: visible;
+}
+
 /* info block */
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 5rem;
+  padding-block: 5rem;
 }
 
 .img-container {
   height: 30rem;
 }
 
+.text-block {
+  margin-left: 3.5rem;
+  margin-right: 10rem;
+  background-color: #928157;
+  margin-top: 1rem;
+  border: 1px solid #6d6041;
+}
+
+.center-info-block {
+  display: grid;
+  justify-content: center;
+  margin-right: 84px;
+}
+
+.text-block-style {
+  color: whitesmoke;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
 .img-container-two {
   height: 20rem;
+}
+
+.button {
+  background-color: #0d0907;
+  color: whitesmoke;
+  border-radius: 4px;
+  padding: 8px;
+  padding-inline: 7rem;
+  font-size: 1.5rem;
+  border: 1px solid black;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: orangered;
 }
 
 /* footer */
@@ -145,6 +213,10 @@ input {
   display: flex;
   justify-content: right;
   gap: 1rem;
+}
+
+.fill:hover {
+  fill: orangered;
 }
 
 .connect {

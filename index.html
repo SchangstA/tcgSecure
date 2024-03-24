@@ -10,6 +10,9 @@
   <body>
     <div class="container">
       <div>
+        
+      <!-- header -->
+
         <header>
           <nav class="nav-container">
             <a href="/"><h1>SecureTCG</h1></a>
@@ -34,40 +37,126 @@
           </nav>
         </header>
         <div class="background-bar"></div>
+
+      <!-- carousel -->
+
         <div style="padding-top: 6rem;">
           <div style="display: flex;justify-content: center;">
             <h3>Shop Our Catalog</h3>
           </div>
-          <div class="carousel" style="display: flex;justify-content: center;gap: 2rem;">
-            <img src="https://product-images.tcgplayer.com/fit-in/437x437/541660.jpg" alt="">
-            <img src="https://product-images.tcgplayer.com/fit-in/437x437/541044.jpg" alt="">
-            <img src="https://product-images.tcgplayer.com/fit-in/437x437/539492.jpg" alt="">
-            <img src="https://product-images.tcgplayer.com/fit-in/437x437/541665.jpg" alt="">
-          </div>
+          <section aria-label="new-cards">
+            <div class="carousel" style="display: flex;justify-content: center;gap: 2rem;">
+              <div class="arrow-container" style="margin-right: 90rem;">
+                <button class="arrows" onclick="prevSlide()">
+                  <img src="./images/LineMdArrow.svg" alt="left-arrow">
+                </button>
+              </div>
+                <ul class="slide" >
+                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541660.jpg" alt=""></li>
+                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541044.jpg" alt=""></li>
+                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/539492.jpg" alt=""></li>
+                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541665.jpg" alt=""></li>
+                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541670.jpg" alt=""></li>
+                </ul>
+                <ul class="slide2" data-active>
+                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541666.jpg" alt=""></li>
+                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541060.jpg" alt=""></li>
+                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541064.jpg" alt=""></li>
+                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541659.jpg" alt=""></li>
+                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/539285.jpg" alt=""></li>
+                </ul>
+              <div class="arrow-container">
+                <button class="arrows" onclick="nextSlide()">
+                  <img style="rotate: 180deg;" src="./images/LineMdArrow.svg" alt="right-arrow">
+                </button>
+              </div>
+            </div>
+          </section>
         </div>
         <div class="grid" style="justify-content: space-around;margin-top: 6rem;">
           <div>
-            <img class="img-container" src="https://en.onepiece-cardgame.com/images/events/2024/championship/index/img_mv.png" alt="">
-            <h2>2024 One Piece Card Game Championships</h2>
-            <p>Compete against the nations best at a once a year tournament</p>
-            <button><h3>Sign up here</h3></button>
+            <img class="img-container champ-img" src="https://en.onepiece-cardgame.com/images/events/2024/championship/index/img_mv.png" alt="">
+            <div class="text-block">
+            <h2 class="text-block-style">2024 One Piece Card Game Championships</h2>
+            <p class="text-block-style">
+              Compete against the nations best at a once a year tournament <br> 
+              or witness the crowning of the best ONE PIECE card game player, <br>
+              the Card Game Pirate King!
+            </p>
+            <a style="display: flex;justify-content: right;padding: 0 2rem 1rem 0;" href="https://en.onepiece-cardgame.com/events/2024/championship/"><button class="button">Sign Up Here</button></a>
+          </div>
           </div>
           <div>
-            <div style="display: flex;">
-              <img class="img-container-two" src="https://product-images.tcgplayer.com/fit-in/437x437/527011.jpg" alt="">
-              <img class="img-container-two" src="https://product-images.tcgplayer.com/fit-in/437x437/498484.jpg" alt="">
-              <img class="img-container-two" src="https://product-images.tcgplayer.com/fit-in/437x437/541054.jpg" alt="">
+            <div style="display: flex;justify-content: center; padding: 2rem 8rem 0 0; gap: 1rem;">
+              <a 
+              href="https://onepiecetopdecks.com/deck-list/jp-format-op-06-twin-champions-decks/deckgen/?dn=Sakazuki&date=1/21/2024&cn=Japan&au=Bee&pl=2nd%20Place&tn=2nd%20Prelims%20Final&hs=Bandai%202023%20CS%20&dg=1nOP05-041a4nOP02-114a4nST06-008a2nST06-010a4nOP02-106a4nOP03-079a4nOP03-089a2nOP04-083a4nOP05-091a4nOP05-093a4nOP06-086a1nOP05-051a4nOP06-050a3nOP02-117a4nOP05-057a2nOP06-056&cs=221">
+                <img class="img-container-two" src="https://product-images.tcgplayer.com/fit-in/437x437/527011.jpg" alt="">
+              </a>
+              <a 
+              href="https://onepiecetopdecks.com/deck-list/jp-format-op-06-twin-champions-decks/deckgen/?dn=Gecko%20Moria&date=1/20/2024&cn=Sinagpore&au=Gerrard%20Ng&pl=Top-2&tn=Flagship(5-0)&hs=Beginner%20Luck&dg=1nOP06-080a3nOP02-114a2nOP02-096a2nST06-006a2nST06-010a4nOP02-106a4nOP03-089a3nOP04-083a3nOP05-093a4nOP06-081a4nOP06-086a4nOP06-090a4nOP06-091a4nOP06-093a3nST06-015a4nOP02-117&cs=225">
+                <img class="img-container-two" src="https://product-images.tcgplayer.com/fit-in/437x437/541054.jpg" alt="">
+              </a>
             </div>
-            <h2>[OP-06] Top Decks</h2>
-            <p>Only the best of the best make it to this list and Saka, Kat, and Moria are just that</p>
+            <div class="text-block">
+              <h2 class="text-block-style">[OP-06] Top Decks</h2>
+                <div>
+                  <h3 class="text-block-style">Sakazuki</h3>
+                  <p class="text-block-style">Bust out high-cost finishers that remove your opponent's Characters, and use your Leader's card-swap and cost-subtraction effects to deal one blow after another.
+                    This deck merges the stability of blue's card draw with black's pressure to stifle the opponent with removal.</p>
+                </div>
+                <div>
+                  <h3 class="text-block-style">Gecko Moria</h3>
+                  <p class="text-block-style">This deck's greatest asset is the ability to revive Characters from your trash at a cost lower than their original cost to establish a board advantage. Combine this with black's specialty—cost-reducing effects—to keep fighting while removing cards from the field.</p>
+                </div>
+            </div>
           </div>
-          <div>
-            <img class="img-container-two" src="https://product-images.tcgplayer.com/fit-in/437x437/541044.jpg" alt="">
-            <h2>Deck of the week [editors choice]</h2>
+          <div class="center-info-block">
+            <img 
+              style="border-radius: 8px;" 
+              class="img-container-two" 
+              src="https://product-images.tcgplayer.com/fit-in/437x437/541044.jpg" 
+              alt="">
+            <img 
+              style="z-index: -1;position: absolute; margin-left: 12rem; border-radius: 8px;" 
+              class="img-container-two" 
+              src="https://product-images.tcgplayer.com/fit-in/437x437/541056.jpg" 
+              alt="">
+            <img 
+              style="z-index: -2;position: absolute; margin-left: 18rem; border-radius: 8px;" 
+              class="img-container-two" 
+              src="https://product-images.tcgplayer.com/fit-in/437x437/513466.jpg" 
+              alt="">
+            <img 
+              style="z-index: -3;position: absolute; margin-left: 24rem; border-radius: 8px;" 
+              class="img-container-two" 
+              src="https://product-images.tcgplayer.com/fit-in/437x437/485246.jpg" 
+              alt="">
+            <img 
+              style="z-index: -4;position: absolute; margin-left: 30rem; border-radius: 8px;" 
+              class="img-container-two" 
+              src="https://product-images.tcgplayer.com/fit-in/437x437/541045.jpg" 
+              alt="">
+            <div style="background-color: #928157;padding-right: 2rem;margin-top: 1rem;">
+              <h2 class="text-block-style">Deck of the week [ G/B Perona ]</h2>
+              <p class="text-block-style">
+                The Black Green Perona deck aims to keep the opponent's board in check <br> 
+                with the many removal cards at its disposal. It adopts a defensive playstyle <br>  
+                in the early to midgame, before slowly dominating the board presence in the game's <br>
+                later stages with the help of Gecko Moria and other high-cost Characters.
+              </p>
+              <a style="display: flex;justify-content: right;padding: 0 0rem 1rem 2rem;" href="https://en.onepiece-cardgame.com/events/2024/championship/"><button class="button">Check It Out</button></a>
+            </div>
           </div>
-          <div>
+          <div class="center-info-block">
             <img class="img-container-two" src="https://en.onepiece-cardgame.com/images/products/boosters/op06/mv_01.jpg?1" alt="">
-            <h2>Wings of The Captain [OP-06]</h2>
+            <div style="background-color: #928157; margin-right: 12rem;">
+              <h2 class="text-block-style">Wings of The Captain [OP-06]</h2>
+              <p class="text-block-style">
+                The 6th Booster adds Fishman Island, Thriller Bark, and Germa as a theme!
+                These cards introduce new tactics which expands the battle options even further!
+              </p>
+              <a style="display: flex;justify-content: right;padding: 2rem 3rem 0 0;" href="https://en.onepiece-cardgame.com/cardlist/?series=569106"><button class="button">Check It Out</button></a>
+            </div>
           </div>
         </div>
       </div>
@@ -80,18 +169,18 @@
               <h1>How Can We Help</h1>
               <h1>Shop</h1>
               <h1>About</h1>
-              <li>Email Us</li>
-              <li>Company</li>
-              <li>Build</li>
-              <li>Leave Us Feedback</li>
-              <li>Crab Walk</li>
-              <li>Subscribe</li>
-              <li>Help Center</li>
-              <li>Random</li>
-              <li>Established</li>
-              <li>Refund & Return Policy</li>
-              <li>11</li>
-              <li>footer</li>
+              <a href="/"><li>Email Us</li></a>
+              <a href="/"><li>Deals of the Week</li></a>
+              <a href="/"><li>About Us</li></a>
+              <a href="/"><li>Leave Us Feedback</li></a>
+              <a href="/"><li>Sell With Us</li></a>
+              <a href="/"><li>Subscribe</li></a>
+              <a href="/"><li>Help Center</li></a>
+              <a href="/"><li>Deck Wishlist</li></a>
+              <a href="/"><li>Careers</li></a>
+              <a href="/"><li>Refund & Return Policy</li></a>
+              <a href="/"><li>One Piece Card Game</li></a>
+              <a href="/"><li>Our Core Values</li></a>
             </ul>
             <h1 class="connect">Connect With Us</h1>
             <div class="social-icons">
