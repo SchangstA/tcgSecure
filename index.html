@@ -16,20 +16,22 @@
         <header>
           <nav class="nav-container">
             <a href="/"><h1>SecureTCG</h1></a>
-            <input 
-              placeholder="search for a card" 
-              style="margin-top: 1rem;" 
-              type="text">
             <ul style="display: flex; gap: 1rem;">
+              <a href="/shop">
+                <li style="text-align: center;">
+                  <img src="./images/BxShoppingBag.svg" alt="shop">
+                  <span>Shop</span>
+                </li>
+              </a>
               <a href="/login">
                 <li style="text-align: center;">
-                  <img src="./images/IonPersonSharp.svg" alt="">
+                  <img src="./images/IonPersonSharp.svg" alt="login">
                   <span>Login</span>
                 </li>
               </a>
               <a href="/cart">
                 <li style="text-align: center;">
-                  <img src="./images/BxCart.svg" alt="">
+                  <img src="./images/BxCart.svg" alt="cart">
                   <span>Cart</span>
                 </li>
               </a>
@@ -42,7 +44,7 @@
 
         <div style="padding-top: 6rem;">
           <div style="display: flex;justify-content: center;">
-            <h3>Shop Our Catalog</h3>
+            <h3>View Our Catalog</h3>
           </div>
               <div class="container-block">
                 <div class="slider-wrapper">
@@ -86,10 +88,19 @@
                     <div class="scrollbar-thumb"></div>
                   </div>
                 </div>
+                <div style="display: flex;justify-content: center;">
+                  <a href="/shop">
+                    <button class="button">Shop Our Catalog</button>
+                  </a>
+                </div>
               </div>
         </div>
-        <div class="grid" style="justify-content: space-around;margin-top: 6rem;">
-          <div>
+
+        <!-- game information block -->
+        
+        <!-- championship series information -->
+        <div class="grid" style="margin-top: 6rem;">
+          <div class="grid-block">
             <img class="img-container champ-img" src="https://en.onepiece-cardgame.com/images/events/2024/championship/index/img_mv.png" alt="">
             <div class="text-block">
             <h2 class="text-block-style">2024 One Piece Card Game Championships</h2>
@@ -112,16 +123,21 @@
                 <img class="img-container-two" src="https://product-images.tcgplayer.com/fit-in/437x437/541054.jpg" alt="">
               </a>
             </div>
-            <div class="text-block">
+            <div class="text-block grid-block">
               <h2 class="text-block-style">[OP-06] Top Decks</h2>
                 <div>
                   <h3 class="text-block-style">Sakazuki</h3>
-                  <p class="text-block-style">Bust out high-cost finishers that remove your opponent's Characters, and use your Leader's card-swap and cost-subtraction effects to deal one blow after another.
-                    This deck merges the stability of blue's card draw with black's pressure to stifle the opponent with removal.</p>
+                  <p class="text-block-style">Bust out high-cost finishers that remove your opponent's Characters, and use your Leader's 
+                    card-swap and cost-subtraction effects to deal one blow after another.This deck merges the stability of blue's card 
+                    draw with black's pressure to stifle the opponent with removal.
+                  </p>
                 </div>
                 <div>
                   <h3 class="text-block-style">Gecko Moria</h3>
-                  <p class="text-block-style">This deck's greatest asset is the ability to revive Characters from your trash at a cost lower than their original cost to establish a board advantage. Combine this with black's specialty—cost-reducing effects—to keep fighting while removing cards from the field.</p>
+                  <p class="text-block-style">This deck's greatest asset is the ability to revive Characters from your trash at a cost lower than their 
+                    original cost to establish a board advantage. Combine this with black's specialty—cost-reducing effects—to keep fighting while 
+                    removing cards from the field.
+                  </p>
                 </div>
             </div>
           </div>
@@ -166,7 +182,7 @@
               </a>
             </div>
           </div>
-          <div style="margin: 0 0 0 5rem;">
+          <div style="margin-left: 5rem;">
             <div>
               <img class="img-container-two" src="https://en.onepiece-cardgame.com/images/products/boosters/op06/mv_01.jpg?1" alt="">
               <div style="background-color: #928157; margin-right: 12rem;padding-bottom: 1rem;">
@@ -180,8 +196,12 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
+
+      <!-- footer -->
+
       <div class="footer-div">
         <div>
         <footer>
@@ -216,7 +236,8 @@
       </div>
     </div>
   </div>
-
+  
+  <!-- script -->
     <script type="module" src="/main.js"></script>
   </body>
 </html>

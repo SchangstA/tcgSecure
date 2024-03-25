@@ -132,6 +132,10 @@ input {
   border: 1px solid #6d6041;
 }
 
+@media(max-width: 1680px) {
+
+}
+
 .center-info-block {
   display: grid;
   justify-content: center;
@@ -145,6 +149,7 @@ input {
 }
 
 .img-container-two {
+  border-radius: 12px;
   height: 20rem;
 }
 
@@ -161,6 +166,7 @@ input {
 button:hover {
   cursor: pointer;
   background-color: orangered;
+  color: #000;
 }
 
 /* footer */
