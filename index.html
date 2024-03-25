@@ -44,34 +44,49 @@
           <div style="display: flex;justify-content: center;">
             <h3>Shop Our Catalog</h3>
           </div>
-          <section aria-label="new-cards">
-            <div class="carousel" style="display: flex;justify-content: center;gap: 2rem;">
-              <div class="arrow-container" style="margin-right: 90rem;">
-                <button class="arrows" onclick="prevSlide()">
-                  <img src="./images/LineMdArrow.svg" alt="left-arrow">
-                </button>
+              <div class="container-block">
+                <div class="slider-wrapper">
+                  <button id="prev-slide" class="slide-button"><img src="./images/LineMdArrow.svg" alt=""></button>
+                  <div class="image-list">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/541660.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/541044.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/539492.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/541665.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/541670.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/541666.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/541060.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/541064.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/541659.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/539285.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/527026.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/529850.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/527021.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/527665.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/528168.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/516555.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/515310.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/515283.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/514544.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/498484.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/501678.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/500122.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/485862.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/485255.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/485162.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/485087.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/454513.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/454536.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/454609.jpg" alt="">
+                    <img class="image-item" src="https://product-images.tcgplayer.com/fit-in/437x437/454669.jpg" alt="">
+                  </div>
+                  <button id="next-slide" class="slide-button"><img src="./images/LineMdArrow.svg" alt=""></button>
+                </div>
+                <div class="slider-scrollbar">
+                  <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                  </div>
+                </div>
               </div>
-                <ul class="slide" >
-                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541660.jpg" alt=""></li>
-                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541044.jpg" alt=""></li>
-                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/539492.jpg" alt=""></li>
-                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541665.jpg" alt=""></li>
-                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541670.jpg" alt=""></li>
-                </ul>
-                <ul class="slide2" data-active>
-                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541666.jpg" alt=""></li>
-                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541060.jpg" alt=""></li>
-                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541064.jpg" alt=""></li>
-                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/541659.jpg" alt=""></li>
-                  <li><img class="img-container-catalog" src="https://product-images.tcgplayer.com/fit-in/437x437/539285.jpg" alt=""></li>
-                </ul>
-              <div class="arrow-container">
-                <button class="arrows" onclick="nextSlide()">
-                  <img style="rotate: 180deg;" src="./images/LineMdArrow.svg" alt="right-arrow">
-                </button>
-              </div>
-            </div>
-          </section>
         </div>
         <div class="grid" style="justify-content: space-around;margin-top: 6rem;">
           <div>
@@ -144,18 +159,24 @@
                 in the early to midgame, before slowly dominating the board presence in the game's <br>
                 later stages with the help of Gecko Moria and other high-cost Characters.
               </p>
-              <a style="display: flex;justify-content: right;padding: 0 0rem 1rem 2rem;" href="https://en.onepiece-cardgame.com/events/2024/championship/"><button class="button">Check It Out</button></a>
+              <a 
+                style="display: flex;justify-content: right;padding: 0 0rem 1rem 2rem;" 
+                href="https://onepiecetopdecks.com/deck-list/jp-format-op1-and-st14-meta-decks/deckgen/?dn=Perona&date=3%2F23%2F2024&cn=Oceania&au=Maxwell%20Rees&pl=Top-16&tn=Regional&hs=TAK%20Games%28487%29&dg=1nOP06-021a4nOP02-114a2nOP02-096a2nST06-006a4nOP02-106a4nOP03-079a4nOP03-089a4nOP04-083a4nOP06-086a2nOP06-092a2nOP01-054a4nOP04-031a4nOP05-030a4nOP05-034a4nOP06-036a2nOP05-037&cs=217">
+                <button class="button">Check It Out</button>
+              </a>
             </div>
           </div>
-          <div class="center-info-block">
-            <img class="img-container-two" src="https://en.onepiece-cardgame.com/images/products/boosters/op06/mv_01.jpg?1" alt="">
-            <div style="background-color: #928157; margin-right: 12rem;">
-              <h2 class="text-block-style">Wings of The Captain [OP-06]</h2>
-              <p class="text-block-style">
-                The 6th Booster adds Fishman Island, Thriller Bark, and Germa as a theme!
-                These cards introduce new tactics which expands the battle options even further!
-              </p>
-              <a style="display: flex;justify-content: right;padding: 2rem 3rem 0 0;" href="https://en.onepiece-cardgame.com/cardlist/?series=569106"><button class="button">Check It Out</button></a>
+          <div style="margin: 0 0 0 5rem;">
+            <div>
+              <img class="img-container-two" src="https://en.onepiece-cardgame.com/images/products/boosters/op06/mv_01.jpg?1" alt="">
+              <div style="background-color: #928157; margin-right: 12rem;padding-bottom: 1rem;">
+                <h2 class="text-block-style">Wings of The Captain [OP-06]</h2>
+                <p class="text-block-style">
+                  The 6th Booster adds Fishman Island, Thriller Bark, and Germa as a theme!
+                  These cards introduce new tactics which expands the battle options even further!
+                </p>
+                <a style="display: flex;justify-content: right;padding: 2rem 3rem 0 0;" href="https://en.onepiece-cardgame.com/cardlist/?series=569106"><button class="button">Check It Out</button></a>
+              </div>
             </div>
           </div>
         </div>
