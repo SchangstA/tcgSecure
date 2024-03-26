@@ -120,26 +120,53 @@ input {
   padding-block: 5rem;
 }
 
+.grid-block {
+  margin: auto;
+}
+
 .img-container {
   height: 30rem;
 }
 
-.text-block {
-  margin-left: 3.5rem;
-  margin-right: 10rem;
+.text-container {
+  margin-inline: 4rem;
+  padding-inline: 8px;
   background-color: #928157;
-  margin-top: 1rem;
+  color: whitesmoke;
+  margin-top: 8px;
   border: 1px solid #6d6041;
 }
 
-@media(max-width: 1680px) {
-
+.button-position {
+  display: flex;
+  justify-content: right;
+  padding: 0 8px 1rem 0;
 }
 
-.center-info-block {
+.card-grid {
   display: grid;
   justify-content: center;
-  margin-right: 84px;
+}
+
+#child2 {
+  z-index: -1;
+  position: absolute;
+  margin-left: 10%;
+}
+#child3 {
+  z-index: -2;
+  position: absolute;
+  margin-left: 15%;
+}
+#child4 {
+  z-index: -3;
+  position: absolute;
+  margin-left: 20%;
+}
+#child5 {
+  z-index: -4;
+  position: absolute;
+  margin-left: 25%;
 }
 
 .text-block-style {
@@ -151,6 +178,7 @@ input {
 .img-container-two {
   border-radius: 12px;
   height: 20rem;
+  min-width: 15rem;
 }
 
 .button {
@@ -172,7 +200,7 @@ button:hover {
 /* footer */
 .footer-div {
   padding-left: 3rem;
-  padding: 2rem 30rem 6rem 10rem;
+  padding: 2rem 10rem 6rem 10rem;
   background-color: #0d0907;
   color: white;
 }
@@ -181,7 +209,7 @@ button:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: left;
-  justify-content: center;
+  justify-content: right;
 }
 
 .social-icons {
@@ -297,4 +325,177 @@ button:hover {
   right: 0;
   top: -10px;
   bottom: -10px;
+}
+
+/* @media */
+/* 1366px */
+@media (max-width: 1366px) {
+  .text-container {
+    margin-inline: 0;
+  }
+
+  .footer-div {
+    padding: 2rem 6rem 6rem 10rem;
+  }
+}
+/* 1024px */
+@media (max-width: 1160px) {
+  .text-container {
+    margin-inline: auto;
+    font-size: 1.5rem;
+    min-width: 50rem;
+    max-width: 50rem;
+  }
+
+  .footer-div {
+    padding: 2rem 4rem 6rem 0rem;
+  }
+
+  .container-block {
+    min-width: 900px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+    padding-block: 5rem;
+  }
+
+  #child2 {
+    z-index: -1;
+    position: absolute;
+    margin-left: 20%;
+  }
+  #child3 {
+    z-index: -2;
+    position: absolute;
+    margin-left: 34%;
+  }
+  #child4 {
+    z-index: -3;
+    position: absolute;
+    margin-left: 46%;
+  }
+  #child5 {
+    z-index: -4;
+    position: absolute;
+    margin-left: 60%;
+  }
+}
+/* 768px */
+@media (max-width: 768px) {
+  .slider-wrapper .image-list .image-item {
+    height: 240px;
+  }
+
+  .slider-wrapper .image-list {
+    gap: 11rem;
+  }
+
+  .container-block {
+    min-width: 600px;
+  }
+
+  .text-container {
+    margin-inline: auto;
+    font-size: 1rem;
+    min-width: 30rem;
+    max-width: 35rem;
+  }
+
+  .footer-div {
+    padding: 2rem 4rem 4rem 0rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+    padding-block: 5rem;
+  }
+
+  #child2 {
+    z-index: -1;
+    position: absolute;
+    margin-left: 17%;
+  }
+  #child3 {
+    z-index: -2;
+    position: absolute;
+    margin-left: 28%;
+  }
+  #child4 {
+    z-index: -3;
+    position: absolute;
+    margin-left: 38%;
+  }
+  #child5 {
+    z-index: -4;
+    position: absolute;
+    margin-left: 48%;
+  }
+}
+/* working here */
+/* 480px */ 
+@media (max-width: 480px) {
+  .slider-wrapper .image-list .image-item {
+    height: 300px;
+  }
+
+  .slider-wrapper .image-list {
+    gap: 216px;
+  }
+
+  .container-block {
+    max-width: 80px;
+    min-width: 215px;
+  }
+
+  .container {
+    padding-inline: 1rem;
+  }
+
+  img {
+    width: 20rem;
+  }
+
+  .text-container {
+    margin-inline: auto;
+    font-size: 1rem;
+    min-width: 20rem;
+    max-width: 20rem;
+  }
+
+  .footer-div {
+    padding: 2rem 4rem 4rem 0rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+    padding-block: 5rem;
+  }
+
+  #child2 {
+    z-index: -1;
+    position: absolute;
+    margin-left: 17%;
+  }
+  #child3 {
+    z-index: -2;
+    position: absolute;
+    margin-left: 28%;
+  }
+  #child4 {
+    z-index: -3;
+    position: absolute;
+    margin-left: 38%;
+  }
+  #child5 {
+    z-index: -4;
+    position: absolute;
+    margin-left: 48%;
+  }
 }

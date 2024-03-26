@@ -33,7 +33,7 @@ const initSlider = () => {
 
     slideButtons.forEach(button => {
         button.addEventListener("click", () => {
-            const direction = button.id === "prev-slide" ? -0.8 : 0.8;
+            const direction = button.id === "prev-slide" ? -1.005 : 1.005;
             const scrollAmount = imageList.clientWidth * direction;
             imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
         })
