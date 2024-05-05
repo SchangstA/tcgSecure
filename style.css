@@ -140,7 +140,7 @@ input {
 .button-position {
   display: flex;
   justify-content: right;
-  padding: 0 8px 1rem 0;
+  padding: 1rem 8px 1rem 0;
 }
 
 .card-grid {
@@ -181,6 +181,12 @@ input {
   min-width: 15rem;
 }
 
+.img-container-three {
+  border-radius: 12px;
+  height: 20rem;
+  min-width: 15rem;
+}
+
 .button {
   background-color: #0d0907;
   color: whitesmoke;
@@ -189,6 +195,11 @@ input {
   padding-inline: 7rem;
   font-size: 1.5rem;
   border: 1px solid black;
+  min-width: max-content;
+}
+
+h1 {
+  min-width: max-content;
 }
 
 button:hover {
@@ -439,6 +450,98 @@ button:hover {
 /* working here */
 /* 480px */ 
 @media (max-width: 480px) {
+  html{
+    margin: 0;
+    padding: 0;
+  }
+
+  .img-container {
+    height: 20rem;
+    width: 40rem;
+  }
+
+  .img-container-two {
+    width: 8rem;
+  }
+
+  .img-container-three {
+    width: 30rem;
+  }
+
+  .slider-wrapper .image-list .image-item {
+    height: 300px;
+  }
+
+  .slider-wrapper .image-list {
+    gap: 216px;
+  }
+
+  .container-block {
+    max-width: 80px;
+    min-width: 215px;
+  }
+
+  .container,
+  html {
+    padding: 0px;
+    min-width: 540px;
+  }
+
+  img {
+    width: 20rem;
+  }
+
+  .text-container {
+    margin-inline: auto;
+    font-size: 1rem;
+    min-width: 30rem;
+    max-width: 30rem;
+  }
+
+  .footer-div {
+    padding: 2rem 1rem 4rem 1rem;
+  }
+
+  .footer-grid {
+    margin-inline: -2rem;
+    column-gap: 1.5rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+    padding-block: 5rem;
+  }
+
+  .social-icons {
+    width: 240px;
+    margin-left: 17rem; 
+  }
+
+  #child2 {
+    z-index: -1;
+    position: absolute;
+    margin-left: 20%;
+  }
+  #child3 {
+    z-index: -2;
+    position: absolute;
+    margin-left: 32%;
+  }
+  #child4 {
+    z-index: -3;
+    position: absolute;
+    margin-left: 44%;
+  }
+  #child5 {
+    z-index: -4;
+    position: absolute;
+    margin-left: 58%;
+  }
+}
+/* 320px */ 
+@media (max-width: 320px) {
   .slider-wrapper .image-list .image-item {
     height: 300px;
   }
