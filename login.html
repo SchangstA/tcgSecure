@@ -3,9 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <title>Login</title>
 </head>
 <body>
-    login here
-</body>
+    <div class="container">
+      <div>
+        
+    <!-- header -->
+
+        <header>
+          <nav class="nav-container">
+            <a href="/"><h1>SecureTCG</h1></a>
+            <ul style="display: flex; gap: 1rem;">
+              <a href="/shop.html">
+                <li style="text-align: center;">
+                  <img src="./images/BxShoppingBag.svg" alt="shop">
+                  <span>Shop</span>
+                </li>
+              </a>
+              <a href="/login.html">
+                <li style="text-align: center;">
+                  <img src="./images/IonPersonSharp.svg" alt="login">
+                  <span>Login</span>
+                </li>
+              </a>
+              <a href="/cart.html">
+                <li style="text-align: center;">
+                  <img src="./images/BxCart.svg" alt="cart">
+                  <span>Cart</span>
+                </li>
+              </a>
+            </ul>
+          </nav>
+        </header>
+        <div class="background-bar"></div>
+
+    <!-- login/signup -->
+
+        <div class="login-container">
+            <div class="login-block">
+                <h1>Login Here</h1>
+                <p>Log in to get access to the store.</p>
+                <div class="login-user-pass">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div style="padding: 3rem; display: flex; gap: 1rem;">
+                  <button class="signup-button" style="padding-inline: 3rem;">Forgot Password?</button>
+                  <button class="signup-button" style="padding-inline: 3rem;">Login</button>
+              </div>
+            </div>
+    
+            <div class="login-block">
+                <h1>Sign Up Here</h1>
+                <h3>By creating an account with our store, you will be able to:</h2>
+                <ul>
+                    <li>1. move through the checkout process faster,</li>
+                    <li>2. store multiple shipping addresses,</li>
+                    <li>3. view and track your orders in your account</li>
+                    <li>4. & more.</li>
+                </ul>
+                <div style="padding: 4rem">
+                    <button class="signup-button">Create An Account</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+      <div class="footer-div" style="padding: 0 10rem 5rem 10rem;">
+        <div>
+        <footer>
+          <nav>
+            <ul class="footer-grid">
+              <h1>How Can We Help</h1>
+              <h1>Shop</h1>
+              <h1>About</h1>
+                <li>Email Us</li>
+                <li>Deals of the Week</li>
+                <li>About Us</li>
+                <li>Leave Us Feedback</li>
+                <li>Sell With Us</li>
+                <li>Subscribe</li>
+                <li>Help Center</li>
+                <li>Deck Wishlist</li>
+                <li>Careers</li>
+                <li>Refund & Return Policy</li>
+                <li>One Piece Card Game</li>
+                <li>Our Core Values</li>
+            </ul>
+            <h1 class="connect">Connect With Us</h1>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/justin.schang.1"><img src="./images/BrandicoFacebookRect.svg" alt=""></a>
+              <a href="https://github.com/SchangstA"><img src="./images/BrandicoGithub.svg" alt=""></a>
+              <a href="https://www.linkedin.com/in/justin-schang-02b687291/"><img src="./images/BrandicoLinkedinRect.svg" alt=""></a>
+              <a href="https://www.instagram.com/theschangsta/"><img src="./images/CibInstagram.svg" alt=""></a>
+            </div>
+          </nav>
+        </footer>
+      </div>
+
+  </div>
+
+  <!-- script -->
+    <script type="module" src="/main.js"></script>
+  </body>
 </html>
