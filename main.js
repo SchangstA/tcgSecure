@@ -58,10 +58,7 @@ const initSlider = () => {
 
 window.addEventListener("load", initSlider);
 
-<<<<<<< HEAD
 // display every card in cards.json into the shop
-=======
->>>>>>> 5c073639d0da44f38171e6bb50bfdc85142cef1d
 document.addEventListener("DOMContentLoaded", function() {
     fetch('cards.json')
     .then(response => response.json())
@@ -101,7 +98,6 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
     `;
     
-<<<<<<< HEAD
 // dynamically created button element
 const addToCartButton = cardDiv.querySelector(`#add-to-cart-button-${index}`);
 
@@ -122,21 +118,3 @@ addToCartButton.addEventListener('click', function() {
     return cardDiv;
     }
 });
-=======
-    // dynamically created button element
-    const addToCartButton = cardDiv.querySelector(`#add-to-cart-button-${index}`);
-    
-    // attach event listener to the button
-    addToCartButton.addEventListener('click', function() {
-        console.log('hello');
-        addToCartButton.classList.add('added');
-        setTimeout(function(){
-            addToCartButton.classList.remove('added');
-        }, 2000);
-    });
-    return cardDiv;
-    }
-});
-
-
->>>>>>> 5c073639d0da44f38171e6bb50bfdc85142cef1d

@@ -233,7 +233,6 @@ button.news-button:hover {
   justify-content: right;
 }
 
-<<<<<<< HEAD
 #cart-amount {
   position: absolute;
   background-color: red;
@@ -242,8 +241,6 @@ button.news-button:hover {
   /* visibility: hidden; */
 }
 
-=======
->>>>>>> 5c073639d0da44f38171e6bb50bfdc85142cef1d
 /* card slider */
 
 .container-block {
@@ -745,25 +742,15 @@ button.news-button:hover {
 .cart-block {
   background-color: #ff4400a8;
   border-radius: 8px;
-<<<<<<< HEAD
   padding-inline: 1rem;
   width: 100%;
   height: 100%;
-=======
-  padding-inline: 4rem;
-  width: 49%;
-  height: 30rem;
->>>>>>> 5c073639d0da44f38171e6bb50bfdc85142cef1d
 }
 
 .total-block {
   background-color: #ff4400a8;
   border-radius: 8px;
   padding-inline: 4rem;
-<<<<<<< HEAD
   width: 30%;
-=======
-  width: 49%;
->>>>>>> 5c073639d0da44f38171e6bb50bfdc85142cef1d
   height: 30rem;
 }
