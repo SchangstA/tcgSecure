@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "Name": "Roronoa Zoro",
+        "Game": "One Piece Card Game",
+        "Set": "Wings of The Captain",
+        "Details": "OP06-118 | SEC | CHARACTER",
+        "Price": 900.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/541660.jpg"
+    },
+    {
+        "id": 2,
+        "Name": "Perona",
+        "Game": "One Piece Card Game",
+        "Set": "Wings of The Captain",
+        "Details": "OP06-021 | L | LEADER",
+        "Price": 82.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/541044.jpg"
+    },
+    {
+        "id": 3,
+        "Name": "O-Nami",
+        "Game": "One Piece Card Game",
+        "Set": "Wings of The Captain",
+        "Details": "OP06-101 | R | CHARACTER",
+        "Price": 47.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/539492.jpg"
+    },
+    {
+        "id": 4,
+        "Name": "Buggy",
+        "Game": "One Piece Card Game",
+        "Set": "Wings of The Captain",
+        "Details": "OP03-008 | SP | CHARACTER",
+        "Price": 72.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/541665.jpg"
+    },
+    {
+        "id": 5,
+        "Name": "Rebecca",
+        "Game": "One Piece Card Game",
+        "Set": "Wings of The Captain",
+        "Details": "OP05-091 | SP | CHARACTER",
+        "Price": 150.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/541670.jpg"
+    },
+    {
+        "id": 6,
+        "Name": "Charlotte Linlin",
+        "Game": "One Piece Card Game",
+        "Set": "Wings of The Captain",
+        "Details": "OP03-114 | SP | CHARACTER",
+        "Price": 111.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/541666.jpg"
+    },
+    {
+        "id": 7,
+        "Name": "Perona",
+        "Game": "One Piece Card Game",
+        "Set": "Wings of The Captain",
+        "Details": "OP06-093 | SR | CHARACTER",
+        "Price": 80.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/541060.jpg"
+    },
+    {
+        "id": 8,
+        "Name": "Vinsmoke Reiju",
+        "Game": "One Piece Card Game",
+        "Set": "Wings of The Captain",
+        "Details": "OP06-069 | SR | CHARACTER",
+        "Price": 92.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/541064.jpg"
+    },
+    {
+        "id": 9,
+        "Name": "Roronoa Zoro",
+        "Game": "One Piece Card Game",
+        "Set": "Wings of The Captain",
+        "Details": "OP06-118 | SEC | CHARACTER",
+        "Price": 55.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/541659.jpg"
+    },
+    {
+        "id": 10,
+        "Name": "Uta",
+        "Game": "One Piece Card Game",
+        "Set": "Wings of The Captain",
+        "Details": "OP06-001 | L | LEADER",
+        "Price": 30.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/539285.jpg"
+    },
+    {
+        "id": 11,
+        "Name": "Monkey.D.Luffy",
+        "Game": "One Piece Card Game",
+        "Set": "Awakening of The New Era",
+        "Details": "OP05-119 | SEC | CHARACTER",
+        "Price": 3000.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/527026.jpg"
+    },
+    {
+        "id": 12,
+        "Name": "Monkey.D.Luffy",
+        "Game": "One Piece Card Game",
+        "Set": "Awakening of The New Era",
+        "Details": "ST01-012 | SR | CHARACTER",
+        "Price": 1600.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/529850.jpg"
+    },
+    {
+        "id": 13,
+        "Name": "Enel",
+        "Game": "One Piece Card Game",
+        "Set": "Awakening of The New Era",
+        "Details": "OP05-098 | L | LEADER",
+        "Price": 78.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/527021.jpg"
+    },
+    {
+        "id": 14,
+        "Name": "Zoro-Juurou",
+        "Game": "One Piece Card Game",
+        "Set": "Awakening of The New Era",
+        "Details": "OP05-067 | R | CHARACTER",
+        "Price": 14.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/527665.jpg"
+    },
+    {
+        "id": 15,
+        "Name": "Belo Betty",
+        "Game": "One Piece Card Game",
+        "Set": "Awakening of The New Era",
+        "Details": "OP05-015 | R | CHARACTER",
+        "Price": 18.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/528168.jpg"
+    },
+    {
+        "id": 16,
+        "Name": "Boa Hancock",
+        "Game": "One Piece Card Game",
+        "Set": "Kingdoms of Intrigue",
+        "Details": "OP01-078 | SP | CHARACTER",
+        "Price": 140.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/516555.jpg"
+    },
+    {
+        "id": 17,
+        "Name": "Yamato",
+        "Game": "One Piece Card Game",
+        "Set": "Kingdoms of Intrigue",
+        "Details": "OP04-112 | SR | CHARACTER",
+        "Price": 70.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/515310.jpg"
+    },
+    {
+        "id": 18,
+        "Name": "Sanji",
+        "Game": "One Piece Card Game",
+        "Set": "Kingdoms of Intrigue",
+        "Details": "OP04-104 | SR | CHARACTER",
+        "Price": 34.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/515283.jpg"
+    },
+    {
+        "id": 19,
+        "Name": "Sabo",
+        "Game": "One Piece Card Game",
+        "Set": "Kingdoms of Intrigue",
+        "Details": "OP04-083 | SR | CHARACTER",
+        "Price": 70.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/514544.jpg"
+    },
+    {
+        "id": 20,
+        "Name": "Katakuri",
+        "Game": "One Piece Card Game",
+        "Set": "Pillars of Strength",
+        "Details": "OP03-099 | L | LEADER",
+        "Price": 190.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/498484.jpg"
+    },
+    {
+        "id": 21,
+        "Name": "Monkey.D.Luffy",
+        "Game": "One Piece Card Game",
+        "Set": "Pillars of Strength",
+        "Details": "ST01-012 | SP | CHARACTER",
+        "Price": 100.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/501678.jpg"
+    },
+    {
+        "id": 22,
+        "Name": "Charlotte Katakuri",
+        "Game": "One Piece Card Game",
+        "Set": "Pillars of Strength",
+        "Details": "OP03-123 | SEC | CHARACTER",
+        "Price": 120.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/500122.jpg"
+    },
+    {
+        "id": 23,
+        "Name": "Portgas.D.Ace",
+        "Game": "One Piece Card Game",
+        "Set": "Paramount War",
+        "Details": "OP02-013 | SR | CHARACTER",
+        "Price": 999.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/485862.jpg"
+    },
+    {
+        "id": 24,
+        "Name": "Sakazuki",
+        "Game": "One Piece Card Game",
+        "Set": "Paramount War",
+        "Details": "OP02-099 | SR | CHARACTER",
+        "Price": 30.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/485255.jpg"
+    },
+    {
+        "id": 25,
+        "Name": "Kuzan",
+        "Game": "One Piece Card Game",
+        "Set": "Paramount War",
+        "Details": "OP02-096 | SR | CHARACTER",
+        "Price": 72.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/485162.jpg"
+    },
+    {
+        "id": 26,
+        "Name": "Borsalino",
+        "Game": "One Piece Card Game",
+        "Set": "Paramount War",
+        "Details": "OP02-114 | SR | CHARACTER",
+        "Price": 107.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/485087.jpg"
+    },
+    {
+        "id": 27,
+        "Name": "Roronoa Zoro",
+        "Game": "One Piece Card Game",
+        "Set": "Romance Dawn",
+        "Details": "OP01-001 | L | LEADER",
+        "Price": 340.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/454513.jpg"
+    },
+    {
+        "id": 28,
+        "Name": "Nami",
+        "Game": "One Piece Card Game",
+        "Set": "Romance Dawn",
+        "Details": "OP01-016 | R | CHARACTER",
+        "Price": 378.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/454536.jpg"
+    },
+    {
+        "id": 29,
+        "Name": "Boa Hancock",
+        "Game": "One Piece Card Game",
+        "Set": "Romance Dawn",
+        "Details": "OP01-078 | SR | CHARACTER",
+        "Price": 110.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/454609.jpg"
+    },
+    {
+        "id": 30,
+        "Name": "Yamato",
+        "Game": "One Piece Card Game",
+        "Set": "Romance Dawn",
+        "Details": "OP01-121 | SEC | CHARACTER",
+        "Price": 120.99,
+        "Img": "https://product-images.tcgplayer.com/fit-in/437x437/454669.jpg"
+    }
+]
