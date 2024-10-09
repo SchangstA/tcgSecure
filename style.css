@@ -283,7 +283,7 @@ button.news-button:hover {
 .slider-wrapper .image-list {
   display: grid;
   grid-template-columns: repeat(30, 1fr);
-  gap: 16rem;
+  gap: 1rem;
   overflow-x: auto;
   scrollbar-width: none;
   margin-bottom: 30px;

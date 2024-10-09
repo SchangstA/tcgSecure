@@ -58,6 +58,7 @@ const initSlider = () => {
 
 window.addEventListener("load", initSlider);
 
+const DisplayCards = () => {
 // display every card in cards.json into the shop
 document.addEventListener("DOMContentLoaded", function() {
     fetch('cards.json')
@@ -117,4 +118,7 @@ addToCartButton.addEventListener('click', function() {
 });
     return cardDiv;
     }
-});
+})
+};
+
+DisplayCards();
