@@ -683,10 +683,14 @@ button#shop-button:hover {
   }
 
   #championship-img {
-    height: 20rem;
+    height: 100%;
   }
 
   #top-deck-img {
+    display: none;
+  }
+
+  #top-deck-span {
     display: none;
   }
 
