@@ -683,7 +683,7 @@ button#shop-button:hover {
   .slider-wrapper .carousel-list .carousel-item {
     display: grid;
     grid-template-columns: repeat(30, 1fr);
-    height: 435px;
+    height: 300px;
   }
 
   .slider-wrapper .carousel-list {
