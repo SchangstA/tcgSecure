@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-* {
-  border: 1px solid red;
-}
-
 /* Remove default margin */
 *,
 body,
@@ -89,12 +85,12 @@ select {
   }
 }
 
-.container {
-  padding-inline: 4rem;
-}
-
 p {
   font-size: large;
+}
+
+.container {
+  margin-inline: 1rem;
 }
 
 /* header */
@@ -254,7 +250,7 @@ button#shop-button:hover {
 }
 
 .text-container {
-  margin-inline: 4rem;
+  margin-inline: auto;
   padding-inline: 8px;
   background-color: #928157;
   color: whitesmoke;
@@ -609,8 +605,8 @@ button#shop-button:hover {
   .text-container {
     margin-inline: auto;
     font-size: 1.5rem;
-    min-width: 50rem;
-    max-width: 50rem;
+    min-width: 80%;
+    max-width: 90%;
   }
 
   .footer-div {
@@ -631,20 +627,24 @@ button#shop-button:hover {
     height: 240px;
   }
 
-  .text-container {
-    margin-inline: auto;
-    font-size: 1rem;
-    min-width: 30rem;
-    max-width: 35rem;
-  }
-
   .footer-div {
     padding: 2rem 4rem 4rem 0rem;
+  }
+
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: right;
   }
 }
 
 /* media 576 */
 @media (max-width: 576px) {
+  .container {
+    margin-inline: 0;
+  }
+
   .slider-wrapper .carousel-list .carousel-item {
     height: 300px;
   }
@@ -653,20 +653,34 @@ button#shop-button:hover {
     gap: 1rem;
   }
 
-  #shop-button {
+  .slider-wrapper .slide-button {
+    top: -16%;
+    margin-inline: 10%;
+  }
+
+  #shop-button,
+  .news-button {
     padding-inline: 5rem;
     font-size: 1.3rem;
   }
 
-  .container {
-    padding-inline: 1rem;
+  #championship-img {
+    height: 20rem;
+  }
+
+  #top-deck-img {
+    display: none;
+  }
+
+  #deck-week-img {
+    display: none;
   }
 
   .text-container {
     margin-inline: auto;
     font-size: 1rem;
-    min-width: 20rem;
-    max-width: 20rem;
+    min-width: 50%;
+    max-width: 90%;
   }
 
   .footer-div {
