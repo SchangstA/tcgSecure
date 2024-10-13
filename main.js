@@ -1,10 +1,10 @@
 // carousel functionality
 const initSlider = () => {
-    const imageList = document.querySelector(".slider-wrapper .image-list");
+    const carouselList = document.querySelector(".slider-wrapper .carousel-list");
     const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button");
     const sliderScrollBar = document.querySelector(".container-block .slider-scrollbar");
     const scrollbarThumb = document.querySelector(".scrollbar-thumb");
-    const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+    const maxScrollLeft = carouselList.scrollWidth - carouselList.clientWidth;
 
     scrollbarThumb.addEventListener("mousedown", (e) => {
         const startX = e.clientX;
@@ -19,7 +19,7 @@ const initSlider = () => {
             const scrollPosition = (boundedPostition / maxThumbPosition) * maxScrollLeft;
 
             scrollbarThumb.style.left = `${boundedPostition}px`;
-            imageList.scrollLeft = scrollPosition;
+            carouselList.scrollLeft = scrollPosition;
         }
 
         const handleMouseUp = () => {
@@ -34,23 +34,23 @@ const initSlider = () => {
     slideButtons.forEach(button => {
         button.addEventListener("click", () => {
             const direction = button.id === "prev-slide" ? -1.005 : 1.005;
-            const scrollAmount = imageList.clientWidth * direction;
-            imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
+            const scrollAmount = carouselList.clientWidth * direction;
+            carouselList.scrollBy({ left: scrollAmount, behavior: "smooth" });
         })
     });
 
     const handleSlideButtons = () => {
-        slideButtons[0].style.display = imageList.scrollLeft <= 0 ? "none" : "block";
-        slideButtons[1].style.display = imageList.scrollLeft >= maxScrollLeft ? "none" : "block";
+        slideButtons[0].style.display = carouselList.scrollLeft <= 0 ? "none" : "block";
+        slideButtons[1].style.display = carouselList.scrollLeft >= maxScrollLeft ? "none" : "block";
     }
 
     const updateScrollThumbPosition = () => {
-        const scrollPosition = imageList.scrollLeft;
+        const scrollPosition = carouselList.scrollLeft;
         const thumbPosition = (scrollPosition / maxScrollLeft) * (sliderScrollBar.clientWidth - scrollbarThumb.offsetWidth);
         scrollbarThumb.style.left = `${thumbPosition}px`;
     }
 
-    imageList.addEventListener("scroll", () => {
+    carouselList.addEventListener("scroll", () => {
         handleSlideButtons();
         updateScrollThumbPosition();
     })
