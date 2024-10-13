@@ -80,14 +80,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // set unique IDs for each element within the card
         cardDiv.innerHTML = `
-        <img class="image-item" id="card-image-${index}" src="${card.Img}" alt="">
+        <div>
+        <img class="shop-item" id="card-image-${index}" src="${card.Img}" alt="">
         <div class="card-info" id="card-info-${index}">
             <h1 id="card-name-${index}">${card.Name}</h1>
-            <span id="card-game-${index}">${card.Game}</span> <br>
-            <span id="card-set-${index}">${card.Set}</span> <br>
-            <span id="card-details-${index}">${card.Details}</span> <br>
-            <span id="card-price-${index}" style="color: gray;">As low as: </span>
-            <span id="card-price-value-${index}" style="color: royalblue;">$${card.Price.toFixed(2)}</span> <br>
+                <span id="card-game-${index}">${card.Game}</span> <br>
+                <span id="card-set-${index}">${card.Set}</span> <br>
+                <span id="card-details-${index}">${card.Details}</span> <br>
+                <span id="card-price-${index}" style="color: gray;">As low as: </span>
+                <span id="card-price-value-${index}" style="color: royalblue;">$${card.Price.toFixed(2)}</span> <br>
             <button class="add-to-cart-button" id="add-to-cart-button-${index}">
                 <svg class="add-to-cart-box box-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#ffffff"/></svg>
                 <svg class="add-to-cart-box box-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#ffffff"/></svg>
@@ -96,6 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <span class="add-to-cart">Add to cart</span>
                 <span class="added-to-cart">Added to cart</span>
             </button>
+        </div>
         </div>
     `;
     
