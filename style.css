@@ -687,7 +687,7 @@ button#shop-button:hover {
   }
 
   .slider-wrapper .carousel-list {
-    gap: 2px;
+    gap: 0;
   }
 
   #shop-button {
