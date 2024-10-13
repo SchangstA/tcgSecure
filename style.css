@@ -681,11 +681,13 @@ button#shop-button:hover {
   }
 
   .slider-wrapper .carousel-list .carousel-item {
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
     height: 435px;
   }
 
   .slider-wrapper .carousel-list {
-    gap: 19.5rem;
+    gap: 2px;
   }
 
   #shop-button {
