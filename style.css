@@ -642,7 +642,7 @@ button#shop-button:hover {
 /* media 576 */
 @media (max-width: 576px) {
   .container {
-    margin-inline: 0;
+    margin-inline: 1rem;
   }
 
   .slider-wrapper .carousel-list .carousel-item {
@@ -654,7 +654,7 @@ button#shop-button:hover {
   }
 
   .slider-wrapper .slide-button {
-    top: -16%;
+    top: -18%;
     margin-inline: 10%;
   }
 
