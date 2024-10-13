@@ -57,6 +57,7 @@ const initSlider = () => {
 }
 
 window.addEventListener("load", initSlider);
+document.addEventListener("DOMContentLoaded", initSlider);
 
 const DisplayCards = () => {
 // display every card in cards.json into the shop

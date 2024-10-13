@@ -118,16 +118,6 @@ p {
 }
 
     /* card slider */
-
-    .container-block {
-      display: block;
-      margin: auto;
-      padding-top: 2rem;
-      justify-content: center;
-      min-width: 1200px;
-      width: 95%;
-    }
-
     .slider-wrapper {
       position: relative;
     }
